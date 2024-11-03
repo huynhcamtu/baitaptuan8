@@ -1,0 +1,214 @@
+body {
+    padding: 400px;
+    margin: 0 400px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    border-top: 1px solid gray;
+    display: flex;
+}
+
+h1 {
+    margin-left: 20px;
+    color: blue;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+ul>li {
+    margin: 0 10px;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: black
+}
+
+.btn_get {
+    color: white;
+    background-color: blue;
+    height: 35px;
+    width: 100px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 150px;
+    background-color: blue;
+}
+
+nav>ul {
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+nav>ul>li>a {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+section {
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+
+aside {
+    width: 30%;
+    height: 100%;
+}
+
+.component {
+    width: 200px;
+    min-height: 150px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+h2 {
+    color: blue;
+}
+
+.component>p {
+    position: relative;
+    top: -10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid gray
+}
+
+form>p {
+    font-size: 12px;
+}
+
+form>label {
+    display: flex;
+}
+
+#checkbox {
+    width: 100px;
+    height: 10px;
+    position: relative;
+    left: -50px;
+    background-color: red;
+}
+
+label>p {
+    position: relative;
+    left: -90px;
+    top: -15px;
+}
+
+form>button {
+    width: 70px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: -25px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    border-top: 1px solid gray;
+    width: 100%;
+    height: 390px;
+}
+
+.footer_container {
+    display: flex;
+    margin: 50px;
+}
+
+.footer__aboutme>h1 {
+    position: relative;
+    left: -20px;
+}
+
+.footer__aboutme {
+    width: 350px;
+}
+
+.footer_useFullLink,
+.footer_ourServices {
+    width: 220px;
+}
+
+.footer_useFullLink>ul {
+    display: block;
+}
+
+.footer_useFullLink>ul>li {
+    position: relative;
+    left: -50px;
+    margin-top: 10px;
+}
+
+.footer_ourServices>ul {
+    display: block;
+}
+
+.footer_ourServices>ul>li {
+    position: relative;
+    left: -50px;
+    margin-top: 10px;
+}
+
+.footer_contact>p {
+    margin: 0;
+}
+
+.container__footer__design {
+    position: relative;
+    width: 90%;
+    height: 100px;
+    top: -40px;
+    left: 4%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.container__footer__design>p {
+    position: relative;
+    top: 30px;
+    margin: 0;
+}

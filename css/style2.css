@@ -1,0 +1,29 @@
+header {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+h1 {
+    margin-left: auto;
+    color: blue;
+}

@@ -1,0 +1,16 @@
+body {
+    font-family: "Times New Roman", serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    /* Canh giữa khung trang web */
+}
+
+header {
+    /* CSS cho phần header */
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
